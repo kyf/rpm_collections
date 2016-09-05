@@ -1,0 +1,18 @@
+[nginx]
+http://nginx.org/packages/centos/6/noarch/RPMS/nginx-release-centos-6-0.el6.ngx.noarch.rpm
+
+[mysql]
+ http://dev.mysql.com/Downloads/MySQL-5.6/MySQL-server-5.6.21-1.rhel5.x86_64.rpm
+ http://dev.mysql.com/Downloads/MySQL-5.6/MySQL-devel-5.6.21-1.rhel5.x86_64.rpm
+ http://dev.mysql.com/Downloads/MySQL-5.6/MySQL-client-5.6.21-1.rhel5.x86_64.rpm
+
+[php]
+Centos 5.X
+rpm -Uvh http://mirror.webtatic.com/yum/el5/latest.rpm
+CentOs 6.x
+rpm -Uvh http://mirror.webtatic.com/yum/el6/latest.rpm
+CentOs 7.X
+rpm -Uvh https://mirror.webtatic.com/yum/el7/epel-release.rpm
+rpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm
+
+
